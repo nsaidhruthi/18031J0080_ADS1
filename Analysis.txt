@@ -1,0 +1,96 @@
+Activity3
+Tilde Approximations
+N + 1  ~N
+1 + 1/N  ~1
+(1 + 1/N )(1 + 2/N )  ~1
+2N^3 - 15 N^2 + N  ~2N^3
+lg(2N )/lg N  ~1
+lg(N^2 + 1) / lg N  ~2
+
+Activity4
+code1
+ int count = 0;
+
+            for(int i = 0; i < N; i++){
+
+                count++;
+
+            }
+Answer:N
+code2
+   int sum = 0;
+
+            if(sum == 0){
+
+                sum++;
+
+} 
+ 
+Answer:1
+code-3
+ for(int i = N; i > 0; i < N/2){
+
+            int sum = 0;
+
+}
+
+Answer:
+code 4:
+for(int i = 0; i < N; i++){
+
+                for(int j = 0; j < N; j++){
+
+                    System.out.println(“Hello”);
+
+                }
+
+            }
+
+Answer:N^2
+code5:
+ for(int i = 0; i < N; i++){
+
+                for(int j = 0; j < N; j = j * 2){
+
+                    System.out.println(“Hello”);
+
+                }
+
+            }
+Answer:N*logN
+code6:
+public int fibonacci(int number) {
+
+ if (number <= 1) {
+
+                       return number;
+
+                 } else {
+
+                           return fibonacci(number - 1) + fibonacci(number - 2);
+
+                 }
+
+}
+Answer:
+Activity -6
+code1
+int sum = 0;
+        for (int n = N; n > 0; n /= 2)
+            for(int i = 0; i < n; i++)
+                Sum++;
+
+        
+Answer:N
+code2
+int sum = 0;
+        for (int i = 1 i < N; i *= 2)
+            for (int j = 0; j < i; j++)
+                sum++;
+Answer:
+code3
+ int sum = 0;
+        for (int i = 1 i < N; i *= 2)
+            for (int j = 0; j < N; j++)
+                Sum++;
+Answer:N*logN
